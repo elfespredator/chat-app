@@ -8,14 +8,17 @@
 </head>
 <body>
     <div class="background"></div>
+    <div class="tempo-buttons">
+        <div class="bubble-button" data-tempo="6">Lent</div>
+        <div class="bubble-button active" data-tempo="4">Normal</div>
+        <div class="bubble-button" data-tempo="2">Rapide</div>
+    </div>
     <div class="container">
         <div class="bubble"></div>
-        <p class="instruction">Inspirez... Expirez...</p>
-        <button onclick="document.querySelector('audio').play()">Play Music</button>
-
+        <p class="instruction">Inspirez...</p>
     </div>
     <audio autoplay loop>
-        <source src="audio/INOHA - Seventh Heaven (Lyrics).mp3" type="audio/mpeg">
+        <source src="audio/chill.mp3" type="audio/mpeg">
         Votre navigateur ne supporte pas l'audio.
     </audio>
     <script src="script.js"></script>
