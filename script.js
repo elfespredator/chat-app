@@ -45,6 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
             updateAnimation();
         });
     });
+<button id="testButton">Test</button>
+<script>
+    document.getElementById('testButton').addEventListener('click', function() {
+        alert('Bouton cliqué!');
+    });
+</script>
 
     // Initial animation update
     updateAnimation();
