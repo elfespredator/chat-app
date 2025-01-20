@@ -1,26 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Respiration Zen</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Test JavaScript</title>
 </head>
 <body>
-    <div class="background"></div>
-    <div class="tempo-buttons">
-        <div class="bubble-button" data-tempo="6">Lent</div>
-        <div class="bubble-button active" data-tempo="4">Normal</div>
-        <div class="bubble-button" data-tempo="2">Rapide</div>
-    </div>
-    <div class="container">
-        <div class="bubble"></div>
-        <p class="instruction">Inspirez...</p>
-    </div>
-    <audio autoplay loop>
-        <source src="audio/chill.mp3" type="audio/mpeg">
-        Votre navigateur ne supporte pas l'audio.
-    </audio>
-    <script src="script.js"></script>
+    <h1>Test de JavaScript</h1>
+    <button id="testButton">Cliquez-moi</button>
+
+    <script>
+        document.getElementById('testButton').addEventListener('click', function() {
+            alert('JavaScript fonctionne sur Render!');
+        });
+    </script>
 </body>
 </html>
