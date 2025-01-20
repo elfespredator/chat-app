@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chat en ligne</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respiration Zen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="chat-container">
-    <h1>Chat en ligne</h1>
-    <ul id="messages"></ul>
-    <form id="form" action="">
-      <input id="input" autocomplete="off" placeholder="Tapez un message..." />
-      <button>Envoyer</button>
-    </form>
-  </div>
-  
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="app.js"></script>
+    <div class="background"></div>
+    <div class="container">
+        <div class="bubble"></div>
+        <p class="instruction">Inspirez... Expirez...</p>
+    </div>
+    <audio autoplay loop>
+        <source src="audio/chill.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+    <script src="script.js"></script>
 </body>
 </html>
